@@ -11,13 +11,4 @@ try {
                 }
             }
             console.log(`Successfully sent ${successCount} messages. ${botCount} bots were skipped.`);
-        }
-
-        if (args.length > 0 && !isNaN(args[0])) {
-            const startIndex = parseInt(args[0]);
-            dm(startIndex);
-        } else {
-            dm();
-        }
-    }
-};
+      
